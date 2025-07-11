@@ -1,0 +1,17 @@
+body{
+    background-image: url("../images/Dark-Anime-HD-Wallpaper-4K-Free-download.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    color: greenyellow;
+    background-color: aqua;
+}
+p{
+    color: navy;
+    background-color: aquamarine;
+    background: var(--gradient-background);
+
+}

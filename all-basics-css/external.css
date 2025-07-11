@@ -1,0 +1,9 @@
+.body{
+    background-color: black;
+    color: white;
+}
+.head{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-decoration-color: gold;
+}
