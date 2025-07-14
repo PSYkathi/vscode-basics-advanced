@@ -1,0 +1,203 @@
+#box1{
+    height: 250px;
+    width: 250px;
+    background-color: darkcyan;
+    font-size: 100px;
+    text-align: center;
+    animation: box1;
+    animation-duration: 5s;
+
+}
+@keyframes box1{
+    from{margin-left: 100%;}
+    to{margin-right: 0%;}
+}
+#box2{
+    height: 250px;
+    width: 250px;
+    background-color: darkcyan;
+    font-size: 100px;
+    text-align: center;
+    animation: box2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes box2{
+    from{margin-left: 100%;}
+    to{margin-right: 0%;}
+}
+#box3{
+    height: 250px;
+    width: 250px;
+    background-color: darkcyan;
+    font-size: 100px;
+    text-align: center;
+    animation: box3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+}
+@keyframes box3{
+    from{margin-left: 100%;}
+    to{margin-right: 0%;}
+}
+#box4{
+    height: 250px;
+    width: 250px;
+    background-color: darkcyan;
+    font-size: 100px;
+    text-align: center;
+    animation: box4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+
+
+}
+@keyframes box4{
+    from{margin-left: 100%;}
+    to{margin-right: 0%;}
+}
+#box5{
+    height: 250px;
+    width: 250px;
+    background-color: darkcyan;
+    font-size: 100px;
+    text-align: center;
+    animation: box5;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-delay: 5s;
+
+}
+@keyframes box5{
+    from{margin-left: 100%;}
+    to{margin-right: 0%;}
+}
+#box6{
+    height: 250px;
+    width: 250px;
+    background-color: darkcyan;
+    font-size: 100px;
+    text-align: center;
+    animation: box6;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+
+}
+@keyframes box6{
+    from{margin-left: 100%;}
+    to{margin-right: 0%;}
+}
+#box7{
+    height: 250px;
+    width: 250px;
+    background-color: darkcyan;
+    font-size: 100px;
+    text-align: center;
+    animation: box7;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-timing-function: ease-out;
+
+}
+@keyframes box7{
+    from{margin-left: 100%;}
+    to{margin-right: 0%;}
+}
+#box8{
+    height: 250px;
+    width: 250px;
+    background-color: darkcyan;
+    font-size: 100px;
+    text-align: center;
+    animation: box8;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+
+}
+@keyframes box8{
+    from{margin-left: 100%;}
+    to{margin-right: 0%;}
+}
+#box9{
+    height: 250px;
+    width: 250px;
+    background-color: darkcyan;
+    font-size: 100px;
+    text-align: center;
+    animation: box9;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+
+}
+@keyframes box9{
+    from{margin-left: 100%;}
+    to{margin-right: 0%;}
+}
+#box10{
+    height: 250px;
+    width: 250px;
+    background-color: darkcyan;
+    font-size: 100px;
+    text-align: center;
+    animation: box10;
+    animation-duration: 5s;
+    /* OR we can do all this in under one single comment
+    animation: linear 0s running infinte  5s box10;
+    */
+
+}
+@keyframes box10{
+    from{margin-left: 100%;}
+    to{margin-right: 0%;}
+}
+#box11{
+    height: 250px;
+    width: 250px;
+    background-color: darkcyan;
+    font-size: 100px;
+    text-align: center;
+    animation: box11;
+    animation-duration: 5s;
+    animation: linear 0s running infinte  5s box11;
+
+
+}
+@keyframes box11{
+    from{margin-left: 100%;}
+    to{margin-right: 0%;}
+}
+#box12{
+    height: 250px;
+    width: 250px;
+    background-color: darkcyan;
+    font-size: 100px;
+    text-align: center;
+    animation: box12;
+    animation-duration: 5s;
+
+}
+@keyframes box12{
+    from{margin-left: 100%;}
+    to{margin-right: 0%;}
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}

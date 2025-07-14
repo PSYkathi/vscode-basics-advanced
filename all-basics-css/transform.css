@@ -1,0 +1,157 @@
+#box1{
+    border: 3px solid;
+    height: 250px;
+    width: 250px;
+    font-size: 225px;
+    text-align: center;
+    background-color: aqua;
+    transform: translateX(50px);
+
+}
+#box2{
+    border: 3px solid;
+    height: 250px;
+    width: 250px;
+    font-size: 225px;
+    text-align: center;
+    background-color: aqua;
+    /*
+    transform: translateX(50px);
+    */
+    transform: translateY(50px);
+
+    
+}
+#box3{
+    border: 3px solid;
+    height: 250px;
+    width: 250px;
+    font-size: 225px;
+    text-align: center;
+    background-color: aqua;
+    transform: translate(50px , 50px);
+    
+}
+#box4{
+    border: 3px solid;
+    height: 250px;
+    width: 250px;
+    font-size: 225px;
+    text-align: center;
+    background-color: aqua;
+    transform: translate(50px , 50px);
+    transform: rotateX(180deg);
+    
+}
+#box5{
+    border: 3px solid;
+    height: 250px;
+    width: 250px;
+    font-size: 225px;
+    text-align: center;
+    background-color: aqua;
+    transform: translate(50px , 50px);
+    transform: rotateY(180deg);
+    
+}
+#box6{
+    border: 3px solid;
+    height: 250px;
+    width: 250px;
+    font-size: 225px;
+    text-align: center;
+    background-color: aqua;
+    transform: translate(50px , 50px);
+    transform: rotateX(180deg);
+    
+}
+#box7{
+    border: 3px solid;
+    height: 250px;
+    width: 250px;
+    font-size: 225px;
+    text-align: center;
+    background-color: aqua;
+    
+    transform: scaleX(2);
+}
+#box8{
+    border: 3px solid;
+    height: 250px;
+    width: 250px;
+    font-size: 225px;
+    text-align: center;
+    background-color: aqua;
+    transform: scaleY(2);
+    
+}
+#box9{
+    border: 3px solid;
+    height: 250px;
+    width: 250px;
+    font-size: 225px;
+    text-align: center;
+    background-color: aqua;
+    transform: scale(2,2);
+}
+#box10{
+    border: 3px solid;
+    height: 250px;
+    width: 250px;
+    font-size: 225px;
+    text-align: center;
+    background-color: aqua;
+    transform: skewX(45deg);
+    
+}
+#box11{
+    border: 3px solid;
+    height: 250px;
+    width: 250px;
+    font-size: 225px;
+    text-align: center;
+    background-color: aqua;
+    transform: skewY(45deg);
+    
+}
+#box12{
+    border: 3px solid;
+    height: 250px;
+    width: 250px;
+    font-size: 225px;
+    text-align: center;
+    background-color: aqua;
+    transform: skew(45deg, 45deg);
+}
+/*
+#box13{
+    border: 3px solid;
+    height: 250px;
+    width: 250px;
+    font-size: 225px;
+    text-align: center;
+    background-color: aqua;
+
+    "also there is another commant called matrix"
+    
+
+    eg: transform: matrix(0, 0, 0, 0, 0, 0)
+    and their explanation is like:
+    
+    1st 0 inticates: scaleX()
+    2st 0 inticates: skewY()
+    3st 0 inticates: skewX()
+    4st 0 inticates: scaleY()
+    5st 0 inticates: translateX()
+    6st 0 inticates: translateY()
+
+
+    
+}
+    */
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
